@@ -1,0 +1,15 @@
+{
+    "name": "typescript_ejemplo22may",
+    "version":"1.0.0",
+    "description": "Ejemplo 1 de typescript",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc",
+        "watch": "tsc --watch"
+    },
+    "autor": "Mynor",
+    "licence":"ISC",
+    "devDependencies": {
+        "typescript":"^5.8.3"
+    }
+}
