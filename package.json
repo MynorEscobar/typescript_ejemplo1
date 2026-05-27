@@ -1,6 +1,7 @@
 {
     "name": "typescript_ejemplo22may",
     "version":"1.0.0",
+    "type": "module",
     "description": "Ejemplo 1 de typescript",
     "main": "index.js",
     "scripts": {

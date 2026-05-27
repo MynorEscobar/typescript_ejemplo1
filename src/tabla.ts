@@ -18,7 +18,6 @@ function generarTablaMultiplicar(e:Event){
     //10 x 1 = 10
     //10 x 2 = 20
     //alt 96 `
-
 }
 botonTabla.addEventListener("click",generarTablaMultiplicar);
 
