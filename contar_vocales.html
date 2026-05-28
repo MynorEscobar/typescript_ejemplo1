@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contar Vocales</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body class="bg-light">
+    <main class="container py-5">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-8 col-lg-6">
+          <div class="card shadow-sm">
+            <div class="card-header bg-primary text-white text-center">
+              <h1 class="h4 mb-0">Contar Vocales</h1>
+            </div>
+
+            <div class="card-body">
+              <form>
+                <div class="mb-4">
+                  <label for="txt_texto" class="form-label">Texto</label>
+                  <input type="text" class="form-control" id="txt_texto" placeholder="Ingrese una palabra o frase">
+                </div>
+
+                <button type="button" class="btn btn-primary w-100" id="btn_contar_vocales">Contar vocales</button>
+              </form>
+            </div>
+          </div>
+
+          <section class="alert alert-info mt-4" aria-live="polite">
+            <h2 class="h5">Resultado</h2>
+            <p class="mb-0" id="resultado_vocales">Aqui se mostrara la cantidad de vocales.</p>
+          </section>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="dist/objetoContarVocales.js"></script>
+  </body>
+</html>
